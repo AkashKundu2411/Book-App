@@ -1,0 +1,47 @@
+
+.card {
+    box-shadow: 0 4px 8px 0 antiquewhite;
+    
+    transition: 0.3s;
+    width: 80%;
+    border-radius: 10px;
+    background: #acb6e5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .newcontain{
+  
+  
+    background: url('../../assets/84248.png') no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+  }
+  .noteCardContainer{
+    padding:50px;
+    margin: 50px;
+    margin-left: 10%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .button{
+      background-color:blue;
+      height: 30px;
+      width: 200px;
+      font-size: 10px;
+      color: white;
+  }
+  h1
+  {
+    
+  margin-left: 30%;
+  }
+  
+  
